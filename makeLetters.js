@@ -27,7 +27,7 @@ function game(){
         else{
             document.getElementById('word6').insertAdjacentHTML('beforeend',letter);
         }
-        document.getElementById(`inp${i}`).addEventListener('keyup', function (e) {
+        document.getElementById(`inp${i}`).addEventListener('keydown', function (e) {
             
             let key = e.key;
             if (counter < 29){
