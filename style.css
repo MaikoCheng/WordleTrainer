@@ -1,0 +1,185 @@
+.background{
+    background-color: #222222;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: center;
+}
+
+.gamewrapper{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    width: 100%;
+    height: 90%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+    width: 310px;
+    
+    height: 100%;
+    
+}
+
+.secret{
+    margin-top: 20px;
+}
+#theword{
+    visibility: hidden;
+}
+#thesentence{
+    visibility: hidden;
+    padding-bottom:25px;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #fff;
+}
+
+h1{
+  margin-block-end: 0;
+  margin-block-start: 0;
+  color: white;
+  text-align: center;
+}
+
+p{
+  color: white;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.lettercontainer{
+  width: 60px;
+  height:60px;
+  min-width: 30px;
+  min-height: 30px;
+  background: black;
+  border-radius: 10%;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1;
+      
+}
+
+#onlybutton{
+    visibility: hidden;
+    background: black;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.onlybutton{
+    visibility: hidden;
+    background: rgb(34, 34, 34);
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    padding: 5px;
+    border: 2px solid rgb(163, 255, 250);
+    border-radius: 10px;
+}
+
+.onlybutton:hover{
+    background: rgb(163, 255, 250);
+    color: black;
+    transition: all 0.3s ease;
+}
+
+
+.letterinput{
+  width: 90%;
+  height: 90%;
+  border: none;
+  background: none;
+  color:white;
+  font-size: 2em;
+  text-align: center;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+
+.letterinput:focus{
+  outline: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .lettercontainer{
+      min-width: 40px;
+      min-height:40px;
+  }
+  .letterinput{
+      font-size: 1.8em;
+  }
+
+}
+
+.navpad {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gameheader{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+@media only screen and (max-width: 350px) {
+        .lettercontainer{
+            min-width: 20px;
+            min-height: 10px;
+        }
+    .game{
+        width: 200px;
+        height:80%
+    }
+    
+}
+@media only screen and (max-width: 1500px){
+    .background{
+
+        height: 125vh;
+        width: 100vw;
+    }
+}
+.infopage{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+
+}
