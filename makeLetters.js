@@ -95,7 +95,7 @@ function game(){
                     document.getElementById(`inp${i-1}`).removeAttribute('disabled');
                     document.getElementById(`inp${i-1}`).value = '';
                     document.getElementById(`inp${i-1}`).focus();
-                    console.log("yi")
+                    counter--;
 
                 }
                 
