@@ -34,11 +34,9 @@
 .secret{
     margin-top: 20px;
 }
-#theword{
-    visibility: hidden;
-}
+
 #thesentence{
-    visibility: hidden;
+    
     padding-bottom:25px;
 }
 html,
@@ -125,6 +123,9 @@ p{
   outline: none;
 }
 
+#hiddentext{
+    visibility: hidden;
+}
 
 @media only screen and (max-width: 480px) {
   .lettercontainer{
@@ -148,7 +149,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 @media only screen and (max-width: 350px) {
         .lettercontainer{

@@ -36,7 +36,7 @@
               <div class=gamewrapper>
                 <div class=game>
                   <h1>Wordle Trainer</h1>
-                  <p>A simple word game trainer</p>
+                  <p>A simple word game trainer<br>Press ";" to delete the letter</p>
                
                     <div class=gameheader id="word1">
                     </div>
@@ -50,8 +50,10 @@
                     </div>
                     <div class=gameheader id="word6">
                     </div>
-                <h1 class="secret" id="thesentence">The word was <span class="secret" id="theword">yo</span>!</h1>
-                <button id="onlybutton" onClick="removeall()">Play Again</button>
+                    <div id="hiddentext">
+                        <h1 class="secret" id="thesentence">The word was <span class="secret" id="theword">yo</span>!</h1>
+                        <button id="onlybutton" onClick="removeall()">Play Again</button>
+                    </div>
                 </div>
               </div>
             </div>
